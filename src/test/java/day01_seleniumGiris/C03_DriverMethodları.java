@@ -19,7 +19,7 @@ public class C03_DriverMethodları {
         System.out.println("TITLE: "+driver.getTitle());
         // amazon anasayfaya gittiginizi test edin.
 
-        // Test expected result ile actual result'in karsilastirilmasi
+        // Test : expected result ile actual result'in karsilastirilmasi
         String expectedIcerik = "amazon";
         String actualUrl=driver.getCurrentUrl();
 

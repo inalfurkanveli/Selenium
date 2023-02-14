@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e19c78f-c4f3-43ba-a839-e712fd900a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day01_seleniumGiris/C01_projeyeSeleniumEkleme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day01_seleniumGiris/C02_DriverMethodlari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day01_seleniumGiris/C03_DriverMethodları.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day01_seleniumGiris/C04_DriverMethodlari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day01_seleniumGiris/C05_DriverNavigateMethodlari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day01_seleniumGiris/C06_DriverManageMethodlari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02_webelements_locaters/C01_driverManageMethodlari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02_webelements_locaters/C02_ImplycitlyWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02_webelements_locaters/C03_DriverMethodlar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02_webelements_locaters/C04_WebElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02_webelements_locaters/C05_FindElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02_webelements_locaters/C06_AutomatıonExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02_webelements_locaters/C07_AmazonExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02_webelements_locaters/youtubeArama.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day01_seleniumGiris/C03_DriverMethodları.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_seleniumGiris/C03_DriverMethodları.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +47,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "temurin-11",
     "last_opened_file_path": "C:/Users/FURKAN/IdeaProjects/seleniumTeam108/drivers/selenium/lib/slf4j-api-2.0.6.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -61,13 +60,13 @@
       <recent name="C:\Users\FURKAN\IdeaProjects\seleniumTeam108\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C06_DriverManageMethodlari">
-    <configuration name="C02_DriverMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01_seleniumGiris.C02_DriverMethodlari" />
+  <component name="RunManager" selected="Application.C07_AmazonExercise">
+    <configuration name="C04_WebElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_webelements_locaters.C04_WebElements" />
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01_seleniumGiris.*" />
+          <option name="PATTERN" value="day02_webelements_locaters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_DriverMethodları" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01_seleniumGiris.C03_DriverMethodları" />
+    <configuration name="C05_FindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_webelements_locaters.C05_FindElements" />
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01_seleniumGiris.*" />
+          <option name="PATTERN" value="day02_webelements_locaters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_DriverMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01_seleniumGiris.C04_DriverMethodlari" />
+    <configuration name="C06_AutomatıonExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_webelements_locaters.C06_AutomatıonExercise" />
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01_seleniumGiris.*" />
+          <option name="PATTERN" value="day02_webelements_locaters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_DriverNavigateMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01_seleniumGiris.C05_DriverNavigateMethodlari" />
+    <configuration name="C07_AmazonExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_webelements_locaters.C07_AmazonExercise" />
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01_seleniumGiris.*" />
+          <option name="PATTERN" value="day02_webelements_locaters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_DriverManageMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01_seleniumGiris.C06_DriverManageMethodlari" />
+    <configuration name="youtubeArama" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_webelements_locaters.youtubeArama" />
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01_seleniumGiris.*" />
+          <option name="PATTERN" value="day02_webelements_locaters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C06_DriverManageMethodlari" />
-        <item itemvalue="Application.C05_DriverNavigateMethodlari" />
-        <item itemvalue="Application.C04_DriverMethodlari" />
-        <item itemvalue="Application.C03_DriverMethodları" />
-        <item itemvalue="Application.C02_DriverMethodlari" />
+        <item itemvalue="Application.C07_AmazonExercise" />
+        <item itemvalue="Application.C06_AutomatıonExercise" />
+        <item itemvalue="Application.youtubeArama" />
+        <item itemvalue="Application.C05_FindElements" />
+        <item itemvalue="Application.C04_WebElements" />
       </list>
     </recent_temporary>
   </component>
@@ -158,5 +157,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
