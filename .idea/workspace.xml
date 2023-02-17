@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e19c78f-c4f3-43ba-a839-e712fd900a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day04_JunitFramework/SauceDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CumaPractice/exercise2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +52,13 @@
       <recent name="C:\Users\FURKAN\IdeaProjects\seleniumTeam108\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SauceDemoTest">
-    <configuration name="C06_MavenIlkClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03_xpath_cssSelector.C06_MavenIlkClass" />
+  <component name="RunManager" selected="Application.exercise2">
+    <configuration name="exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CumaPractice.exercise2" />
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03_xpath_cssSelector.*" />
+          <option name="PATTERN" value="CumaPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercise2" />
         <item itemvalue="JUnit.SauceDemoTest" />
         <item itemvalue="JUnit.SauceDemoTest.test03" />
         <item itemvalue="JUnit.C05_BirlikteKullanim" />
         <item itemvalue="JUnit.C04_BeforeAfterClass" />
-        <item itemvalue="Application.C06_MavenIlkClass" />
       </list>
     </recent_temporary>
   </component>
