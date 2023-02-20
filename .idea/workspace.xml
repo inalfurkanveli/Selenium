@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e19c78f-c4f3-43ba-a839-e712fd900a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CumaPractice/exercise2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CumaPractice/Odev1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CumaPractice/Odev2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CumaPractice/Odev3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C01_Assertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C02_CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C03_RadioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C04_DropdownMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C05_TestBaseIlkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C06_dropdownMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C07_JsAlerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +63,24 @@
       <recent name="C:\Users\FURKAN\IdeaProjects\seleniumTeam108\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exercise2">
-    <configuration name="exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CumaPractice.exercise2" />
+  <component name="RunManager" selected="JUnit.Odev3.test01">
+    <configuration name="C06_dropdownMenu.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTeam108" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05_assertions_dropdownMenu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day05_assertions_dropdownMenu" />
+      <option name="MAIN_CLASS_NAME" value="day05_assertions_dropdownMenu.C06_dropdownMenu" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Odev2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
@@ -62,66 +88,55 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_BeforeAfterClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seleniumTeam108" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day04_JunitFramework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day04_JunitFramework" />
-      <option name="MAIN_CLASS_NAME" value="day04_JunitFramework.C04_BeforeAfterClass" />
+      <option name="PACKAGE_NAME" value="CumaPractice" />
+      <option name="MAIN_CLASS_NAME" value="CumaPractice.Odev2" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_BirlikteKullanim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Odev2.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04_JunitFramework.*" />
+          <option name="PATTERN" value="CumaPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day04_JunitFramework" />
-      <option name="MAIN_CLASS_NAME" value="day04_JunitFramework.C05_BirlikteKullanim" />
+      <option name="PACKAGE_NAME" value="CumaPractice" />
+      <option name="MAIN_CLASS_NAME" value="CumaPractice.Odev2" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Odev3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTeam108" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CumaPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CumaPractice" />
+      <option name="MAIN_CLASS_NAME" value="CumaPractice.Odev3" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SauceDemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Odev3.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04_JunitFramework.*" />
+          <option name="PATTERN" value="CumaPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day04_JunitFramework" />
-      <option name="MAIN_CLASS_NAME" value="day04_JunitFramework.SauceDemoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SauceDemoTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seleniumTeam108" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day04_JunitFramework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day04_JunitFramework" />
-      <option name="MAIN_CLASS_NAME" value="day04_JunitFramework.SauceDemoTest" />
-      <option name="METHOD_NAME" value="test03" />
+      <option name="PACKAGE_NAME" value="CumaPractice" />
+      <option name="MAIN_CLASS_NAME" value="CumaPractice.Odev3" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.exercise2" />
-        <item itemvalue="JUnit.SauceDemoTest" />
-        <item itemvalue="JUnit.SauceDemoTest.test03" />
-        <item itemvalue="JUnit.C05_BirlikteKullanim" />
-        <item itemvalue="JUnit.C04_BeforeAfterClass" />
+        <item itemvalue="JUnit.Odev3.test01" />
+        <item itemvalue="JUnit.Odev2.test01" />
+        <item itemvalue="JUnit.C06_dropdownMenu.test01" />
+        <item itemvalue="JUnit.Odev3" />
+        <item itemvalue="JUnit.Odev2" />
       </list>
     </recent_temporary>
   </component>
