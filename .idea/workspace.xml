@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e19c78f-c4f3-43ba-a839-e712fd900a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CumaPractice/Odev1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CumaPractice/Odev2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CumaPractice/Odev3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C01_Assertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C02_CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C03_RadioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C04_DropdownMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C05_TestBaseIlkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C06_dropdownMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day05_assertions_dropdownMenu/C07_JsAlerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OrnekCalismalar/Ornek1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +52,7 @@
       <recent name="C:\Users\FURKAN\IdeaProjects\seleniumTeam108\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Odev3.test01">
+  <component name="RunManager" selected="JUnit.Ornek1.test01">
     <configuration name="C06_dropdownMenu.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
@@ -76,21 +65,6 @@
       <option name="MAIN_CLASS_NAME" value="day05_assertions_dropdownMenu.C06_dropdownMenu" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Odev2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seleniumTeam108" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CumaPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CumaPractice" />
-      <option name="MAIN_CLASS_NAME" value="CumaPractice.Odev2" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,13 +116,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ornek1.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTeam108" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OrnekCalismalar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OrnekCalismalar" />
+      <option name="MAIN_CLASS_NAME" value="OrnekCalismalar.Ornek1" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ornek1.test01" />
         <item itemvalue="JUnit.Odev3.test01" />
         <item itemvalue="JUnit.Odev2.test01" />
         <item itemvalue="JUnit.C06_dropdownMenu.test01" />
         <item itemvalue="JUnit.Odev3" />
-        <item itemvalue="JUnit.Odev2" />
       </list>
     </recent_temporary>
   </component>
