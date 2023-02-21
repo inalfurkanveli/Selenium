@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e19c78f-c4f3-43ba-a839-e712fd900a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day06_window_iframe_actionsClass/C01_BasicAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day06_window_iframe_actionsClass/C02_Iframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day06_window_iframe_actionsClass/C03_SwitchWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day06_window_iframe_actionsClass/C04_SwitchToWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day06_window_iframe_actionsClass/C05_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day06_window_iframe_actionsClass/C06_DropAndDrag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
       <recent name="C:\Users\FURKAN\IdeaProjects\seleniumTeam108\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C04_SwitchToWindow.test01">
+  <component name="RunManager" selected="JUnit.C05_Actions.test01">
     <configuration name="C03_SwitchWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
@@ -105,16 +101,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Odev3.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C05_Actions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CumaPractice.*" />
+          <option name="PATTERN" value="day06_window_iframe_actionsClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CumaPractice" />
-      <option name="MAIN_CLASS_NAME" value="CumaPractice.Odev3" />
+      <option name="PACKAGE_NAME" value="day06_window_iframe_actionsClass" />
+      <option name="MAIN_CLASS_NAME" value="day06_window_iframe_actionsClass.C05_Actions" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -139,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C05_Actions.test01" />
         <item itemvalue="JUnit.C04_SwitchToWindow.test01" />
         <item itemvalue="JUnit.C03_SwitchWindows.test01" />
         <item itemvalue="JUnit.C03_SwitchWindows" />
         <item itemvalue="JUnit.Ornek1.test01" />
-        <item itemvalue="JUnit.Odev3.test01" />
       </list>
     </recent_temporary>
   </component>
