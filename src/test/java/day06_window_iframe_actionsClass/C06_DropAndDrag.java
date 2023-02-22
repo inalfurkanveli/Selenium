@@ -25,5 +25,8 @@ public class C06_DropAndDrag extends TestBase {
 
         bekle(3);
 
+
+        System.out.println(driver.getWindowHandles());
+
     }
 }

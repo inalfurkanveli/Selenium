@@ -6,6 +6,8 @@ import org.openqa.selenium.WindowType;
 import utilities.TestBase;
 import utilities.TestBaseClass;
 
+import java.util.Set;
+
 public class Ornek3 extends TestBaseClass {
     @Test
     public void test01(){
@@ -23,6 +25,7 @@ public class Ornek3 extends TestBaseClass {
         bekle(2);
         //● Yeni bir tab olusturup, acilan tab’da wisequarter.com adresine gidin
         driver.switchTo().newWindow(WindowType.WINDOW);
+        String wiseWHD=driver.getWindowHandle();
         driver.get("https://www.wisequarter.com");
         //● Sayfa title’nin “wisequarter” icerdigini test edin
         String expectedWiseIcerik="Wise Quarter";
@@ -45,5 +48,18 @@ public class Ornek3 extends TestBaseClass {
         Assert.assertTrue(actualUrl.contains(expectedUrl));
 
         bekle(3);
+        Set<String> tumWHD= driver.getWindowHandles();
+
+        String WHD3="";
+        for (String each:tumWHD
+             ) {
+            if (!(amazonWHD.equals(each)) && !(wiseWHD.equals(each))){
+                WHD3=each;
+            }
+        }
+        System.out.println(WHD3);
+
+        driver.switchTo().window(WHD3);
+
     }
 }
