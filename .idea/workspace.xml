@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e19c78f-c4f3-43ba-a839-e712fd900a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C01_MoveToElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C02_KeybordActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C03_KeybordActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C04_FilePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C05_DinamikDosyaYolu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C06_FileExistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C07_FileExistTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C08_FileUploadTesti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OrnekCalismalar/Ornek3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrnekCalismalar/Ornek3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day06_window_iframe_actionsClass/C06_DropAndDrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06_window_iframe_actionsClass/C06_DropAndDrag.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <recent name="C:\Users\FURKAN\IdeaProjects\seleniumTeam108\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C03_KeybordActions.test01">
+  <component name="RunManager" selected="JUnit.C08_FileUploadTesti.test01">
     <configuration name="C03_KeybordActions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
@@ -74,63 +73,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_DropAndDrag.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_FilePath.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day06_window_iframe_actionsClass.*" />
+          <option name="PATTERN" value="day07_actionsClass_fileTestleri.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day06_window_iframe_actionsClass" />
-      <option name="MAIN_CLASS_NAME" value="day06_window_iframe_actionsClass.C06_DropAndDrag" />
+      <option name="PACKAGE_NAME" value="day07_actionsClass_fileTestleri" />
+      <option name="MAIN_CLASS_NAME" value="day07_actionsClass_fileTestleri.C04_FilePath" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ornek2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C05_DinamikDosyaYolu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OrnekCalismalar.*" />
+          <option name="PATTERN" value="day07_actionsClass_fileTestleri.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OrnekCalismalar" />
-      <option name="MAIN_CLASS_NAME" value="OrnekCalismalar.Ornek2" />
+      <option name="PACKAGE_NAME" value="day07_actionsClass_fileTestleri" />
+      <option name="MAIN_CLASS_NAME" value="day07_actionsClass_fileTestleri.C05_DinamikDosyaYolu" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ornek2.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C06_FileExistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OrnekCalismalar.*" />
+          <option name="PATTERN" value="day07_actionsClass_fileTestleri.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OrnekCalismalar" />
-      <option name="MAIN_CLASS_NAME" value="OrnekCalismalar.Ornek2" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="day07_actionsClass_fileTestleri" />
+      <option name="MAIN_CLASS_NAME" value="day07_actionsClass_fileTestleri.C06_FileExistTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ornek3.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C08_FileUploadTesti.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OrnekCalismalar.*" />
+          <option name="PATTERN" value="day07_actionsClass_fileTestleri.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OrnekCalismalar" />
-      <option name="MAIN_CLASS_NAME" value="OrnekCalismalar.Ornek3" />
+      <option name="PACKAGE_NAME" value="day07_actionsClass_fileTestleri" />
+      <option name="MAIN_CLASS_NAME" value="day07_actionsClass_fileTestleri.C08_FileUploadTesti" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -139,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C08_FileUploadTesti.test01" />
+        <item itemvalue="JUnit.C04_FilePath.test01" />
+        <item itemvalue="JUnit.C06_FileExistTest" />
+        <item itemvalue="JUnit.C05_DinamikDosyaYolu" />
         <item itemvalue="JUnit.C03_KeybordActions.test01" />
-        <item itemvalue="JUnit.Ornek3.test01" />
-        <item itemvalue="JUnit.C06_DropAndDrag.test01" />
-        <item itemvalue="JUnit.Ornek2.test01" />
-        <item itemvalue="JUnit.Ornek2" />
       </list>
     </recent_temporary>
   </component>
