@@ -52,6 +52,8 @@ public class C01_ExplicitlyWait {
                         (By.xpath("//p[@id='message']")));
 
 
+
+
         Assert.assertTrue(itsGoneElement.isDisplayed());
         driver.close();
     }

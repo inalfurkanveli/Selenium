@@ -57,7 +57,7 @@ public class Ornek4 extends TestBaseClass {
         String urunTitle=driver.getTitle();
         String urunFiyat=driver.findElement(By.xpath("(//span[text()='$6.99'])[1]")).getText();
 
-       WebElement addCard= driver.findElement(By.xpath("//*[@id=\"add-to-cart-button\"]"));
+       WebElement addCard= driver.findElement(By.xpath("//form[@id='addToCart']"));
        addCard.click();
 
 
