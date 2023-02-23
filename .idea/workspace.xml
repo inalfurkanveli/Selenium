@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e19c78f-c4f3-43ba-a839-e712fd900a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrnekCalismalar/Ornek4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrnekCalismalar/xD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C09_Waits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day08_excplicitlyWait_cookies_webTables/C01_ExplicitlyWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day08_excplicitlyWait_cookies_webTables/C02_ExpilicitlyWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day08_excplicitlyWait_cookies_webTables/C03_explicitlyWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day08_excplicitlyWait_cookies_webTables/C04_Cookies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C03_KeybordActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C03_KeybordActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C08_FileUploadTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07_actionsClass_fileTestleri/C08_FileUploadTesti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day08_excplicitlyWait_cookies_webTables/C04_Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08_excplicitlyWait_cookies_webTables/C04_Cookies.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +52,7 @@
       <recent name="C:\Users\FURKAN\IdeaProjects\seleniumTeam108\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C04_Cookies.test01">
+  <component name="RunManager" selected="JUnit.C04_Cookies">
     <configuration name="C01_ExplicitlyWait" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
@@ -93,6 +84,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C04_Cookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTeam108" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day08_excplicitlyWait_cookies_webTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day08_excplicitlyWait_cookies_webTables" />
+      <option name="MAIN_CLASS_NAME" value="day08_excplicitlyWait_cookies_webTables.C04_Cookies" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C04_Cookies.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
@@ -103,22 +109,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="day08_excplicitlyWait_cookies_webTables" />
       <option name="MAIN_CLASS_NAME" value="day08_excplicitlyWait_cookies_webTables.C04_Cookies" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C08_FileUploadTesti.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seleniumTeam108" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day07_actionsClass_fileTestleri.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day07_actionsClass_fileTestleri" />
-      <option name="MAIN_CLASS_NAME" value="day07_actionsClass_fileTestleri.C08_FileUploadTesti" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -143,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C04_Cookies" />
         <item itemvalue="JUnit.C04_Cookies.test01" />
         <item itemvalue="JUnit.C03_explicitlyWait.test01" />
         <item itemvalue="JUnit.C01_ExplicitlyWait" />
         <item itemvalue="JUnit.Ornek4.test01" />
-        <item itemvalue="JUnit.C08_FileUploadTesti.test01" />
       </list>
     </recent_temporary>
   </component>
