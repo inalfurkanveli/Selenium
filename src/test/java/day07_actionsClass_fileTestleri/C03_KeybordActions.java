@@ -50,6 +50,7 @@ public class C03_KeybordActions extends TestBase {
                 .sendKeys(Keys.TAB)
                 .sendKeys(Keys.ENTER).perform();
         //4- Kaydol tusuna basalim
+
         bekle(4);
     }
 }

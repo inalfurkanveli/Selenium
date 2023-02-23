@@ -18,9 +18,9 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
     @After
-    public void teardown(){
-       driver.quit();
-    }
+ public void teardown(){
+    driver.quit();
+   }
     public void bekle(int saniye){
         try {
             Thread.sleep(saniye*1000);

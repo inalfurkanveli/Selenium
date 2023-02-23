@@ -29,9 +29,11 @@ public class C08_FileUploadTesti extends TestBase {
         olusturulan dosya yolunu sendKeys ile chooseFile butonuna
         gondermemiz yeterli olur
          */
+        bekle(3);
         String dinamikDosyaYolu= System.getProperty("user.home")+"\\Downloads\\logo.png";
         WebElement chooseFile= driver.findElement(By.id("file-upload"));
         chooseFile.sendKeys(dinamikDosyaYolu);
+        bekle(3);
 
 
         //4.Upload butonuna basalim.
