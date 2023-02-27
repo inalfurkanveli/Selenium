@@ -4,6 +4,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,19 +12,42 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class ResuableMethods {
-    public  static void tumSayfaScreenshot(WebDriver driver) throws IOException {
-        TakesScreenshot ts= (TakesScreenshot) driver;
+    public static void tumSayfaScreenshot(WebDriver driver)  {
 
-        LocalDateTime ldt= LocalDateTime.now();
-        DateTimeFormatter dtf=DateTimeFormatter.ofPattern("yyyyMMddhhmmss");
-        String dinamikDosyaYolu="target/tumSayfaSs"+ ldt.format(dtf);
-        // dosya yolu "target/tumSayfaSs20230227114813
-        File tumSayfaSS= new File(dinamikDosyaYolu);
+        TakesScreenshot ts = (TakesScreenshot) driver;
 
-        File geciciDosya=ts.getScreenshotAs(OutputType.FILE);
-
-        FileUtils.copyFile(geciciDosya,tumSayfaSS);
+        LocalDateTime ldt = LocalDateTime.now();
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddhhmmss");
+        String dinamikDosyaYolu = "target/tumSayfaSs"+ ldt.format(dtf)+".png";
+        // dosya yolu "target/tumSayfaSs20230227114813.png"
 
 
+        File tumSayfaSs = new File(dinamikDosyaYolu);
+
+        File geciciFile= ts.getScreenshotAs(OutputType.FILE);
+
+        try {
+            FileUtils.copyFile(geciciFile,tumSayfaSs);
+        } catch (IOException e) {
+
+        }
+    }
+
+
+    public static void webelementScreenshot(WebElement istenenElement){
+
+        LocalDateTime ldt = LocalDateTime.now();
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddhhmmss");
+        String dinamikDosyaYolu = "target/webelementSs"+ ldt.format(dtf)+".png";
+        // dosya yolu "target/tumSayfaSs20230227114813.png"
+
+        File elementSs = new File(dinamikDosyaYolu);
+        File geciciDosya= istenenElement.getScreenshotAs(OutputType.FILE);
+
+        try {
+            FileUtils.copyFile(geciciDosya,elementSs);
+        } catch (IOException e) {
+
+        }
     }
 }
