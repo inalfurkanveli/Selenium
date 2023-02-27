@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e19c78f-c4f3-43ba-a839-e712fd900a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day09_excel_screenshot_jsExecutor/C07_ReusableMethodsElementSs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day09_excel_screenshot_jsExecutor/C08_JavaScriptExecuterClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/DriverMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day09_excel_screenshot_jsExecutor/C06_ResuableMethodsTumSayfa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_excel_screenshot_jsExecutor/C06_ResuableMethodsTumSayfa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ResuableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ResuableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,38 +53,7 @@
       <recent name="C:\Users\FURKAN\IdeaProjects\seleniumTeam108\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C08_JavaScriptExecuterClick">
-    <configuration name="C02_ReadExcel.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seleniumTeam108" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09_excel_screenshot_jsExecutor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day09_excel_screenshot_jsExecutor" />
-      <option name="MAIN_CLASS_NAME" value="day09_excel_screenshot_jsExecutor.C02_ReadExcel" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_WriteExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seleniumTeam108" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09_excel_screenshot_jsExecutor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day09_excel_screenshot_jsExecutor" />
-      <option name="MAIN_CLASS_NAME" value="day09_excel_screenshot_jsExecutor.C03_WriteExcel" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DriverMethods.test01">
     <configuration name="C04_TumSayfaScreenShot.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
@@ -135,13 +101,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DriverMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTeam108" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.DriverMethods" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DriverMethods.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTeam108" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.DriverMethods" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DriverMethods.test01" />
+        <item itemvalue="JUnit.DriverMethods" />
         <item itemvalue="JUnit.C08_JavaScriptExecuterClick" />
         <item itemvalue="JUnit.C05_WebElementScreenshot.test01" />
         <item itemvalue="JUnit.C04_TumSayfaScreenShot.test01" />
-        <item itemvalue="JUnit.C03_WriteExcel" />
-        <item itemvalue="JUnit.C02_ReadExcel.test01" />
       </list>
     </recent_temporary>
   </component>
