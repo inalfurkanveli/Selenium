@@ -23,6 +23,7 @@ public class C03_WriteExcel {
         //3) Adimlari takip ederek 1.satira kadar gidelim
         //4) 4.hucreye yeni bir cell olusturalim
         //5) Olusturdugumuz hucreye “Nufus” yazdiralim
+
         sayfa1.getRow(0).createCell(4).setCellValue("Nufus");
 
         //6) 2.satir nufus kolonuna 1500000 yazdiralim

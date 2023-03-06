@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e19c78f-c4f3-43ba-a839-e712fd900a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/DriverMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/googleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/kiwiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/selenium/LICENSE.chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/selenium/LICENSE.chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/selenium/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/selenium/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day09_excel_screenshot_jsExecutor/C02_ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_excel_screenshot_jsExecutor/C02_ReadExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day09_excel_screenshot_jsExecutor/C03_WriteExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_excel_screenshot_jsExecutor/C03_WriteExcel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,55 +58,24 @@
       <recent name="C:\Users\FURKAN\IdeaProjects\seleniumTeam108\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DriverMethods.test01">
-    <configuration name="C04_TumSayfaScreenShot.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.kiwiTest.kiwiTest01">
+    <configuration name="Ornek3.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09_excel_screenshot_jsExecutor.*" />
+          <option name="PATTERN" value="OrnekCalismalar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09_excel_screenshot_jsExecutor" />
-      <option name="MAIN_CLASS_NAME" value="day09_excel_screenshot_jsExecutor.C04_TumSayfaScreenShot" />
+      <option name="PACKAGE_NAME" value="OrnekCalismalar" />
+      <option name="MAIN_CLASS_NAME" value="OrnekCalismalar.Ornek3" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_WebElementScreenshot.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seleniumTeam108" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09_excel_screenshot_jsExecutor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day09_excel_screenshot_jsExecutor" />
-      <option name="MAIN_CLASS_NAME" value="day09_excel_screenshot_jsExecutor.C05_WebElementScreenshot" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C08_JavaScriptExecuterClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seleniumTeam108" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09_excel_screenshot_jsExecutor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day09_excel_screenshot_jsExecutor" />
-      <option name="MAIN_CLASS_NAME" value="day09_excel_screenshot_jsExecutor.C08_JavaScriptExecuterClick" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DriverMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="googleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
@@ -110,13 +84,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumPractice" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.DriverMethods" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.googleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriverMethods.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="googleTest.googleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTeam108" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +99,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumPractice" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.DriverMethods" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.googleTest" />
+      <option name="METHOD_NAME" value="googleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kiwiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTeam108" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.kiwiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kiwiTest.kiwiTest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTeam108" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.kiwiTest" />
+      <option name="METHOD_NAME" value="kiwiTest01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DriverMethods.test01" />
-        <item itemvalue="JUnit.DriverMethods" />
-        <item itemvalue="JUnit.C08_JavaScriptExecuterClick" />
-        <item itemvalue="JUnit.C05_WebElementScreenshot.test01" />
-        <item itemvalue="JUnit.C04_TumSayfaScreenShot.test01" />
+        <item itemvalue="JUnit.kiwiTest.kiwiTest01" />
+        <item itemvalue="JUnit.kiwiTest" />
+        <item itemvalue="JUnit.googleTest.googleTest" />
+        <item itemvalue="JUnit.googleTest" />
+        <item itemvalue="JUnit.Ornek3.test01" />
       </list>
     </recent_temporary>
   </component>
